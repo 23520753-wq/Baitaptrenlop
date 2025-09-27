@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Giới thiệu bản thân</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body>
+        <nav>
+            <a href="#intro">Giới thiệu bản thân</a>
+            <a href="#contact">Gửi thông tin & liên hệ</a>
+        </nav>
+        <div id="intro">
+            <h1 style="color: #CAEDFF;">Giới thiệu bản thân</h1>
+            <img src="img/avatar.jpg"
+                alt="Ảnh đại diện"
+                width="200" height="200"
+                style="display:block; margin-left:auto; margin-right:auto;">
+
+            <h2 style="color: #D8B4F8;">Thông tin cơ bản</h2>
+            <ul>
+                <li>Tên: Phạm Nhật Khoa</li>
+                <li>Năm sinh: 2005</li>
+                <li>Ngành học: Hệ thống thông tin</li>
+            </ul>
+
+            <h2 style="color: #D8B4F8;">Sở thích</h2>
+            <h3 style="color: #FFC7EA;">Món ăn</h3>
+            <ol>
+                <li>Gà chiên mắm</li>
+                <li>Mỳ cay</li>
+                <li>Lẩu Thái</li>
+            </ol>
+
+            <h3 style="color: #FFC7EA;">Giải trí</h3>
+            <h4>Trò chơi</h4>
+            <ul>
+                <li>Liên Quân Mobile</li>
+                <li>Tốc Chiến</li>
+                <li>Bơi lội</li>
+            </ul>
+
+            <h4>Bài hát yêu thích</h4>
+            <ul>
+                <li>Nơi này có anh - Sơn Tùng MTP</li>
+                <li>Sóng gió - Jack</li>
+            </ul>
+
+            <h2 style="color: #D8B4F8;">Mục tiêu bản thân</h2>
+            <table>
+                <tr>
+                    <th>Mục tiêu</th>
+                    <th>Thời hạn</th>
+                    <th>Hoàn thành</th>
+                </tr>
+                <tr>
+                    <td>Hoàn thành tốt chương trình học</td>
+                    <td>30/06/2027</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Phát triển kỹ năng lập trình</td>
+                    <td>30/06/2026</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Ứng dụng công nghệ mới vào thực tế</td>
+                    <td>31/12/2026</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Trở thành chuyên viên phân tích hệ thống</td>
+                    <td>31/12/2028</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="contact">
+            <h1 style="color: #CAEDFF;">Gửi thông tin và giao lưu cùng tôi</h1>
+
+            <form>
+                <label for="name">Họ và tên:</label>
+                <input type="text" id="name" name="Name"><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="Email"><br>
+
+                <label for="message">Tin nhắn:</label>
+                <textarea name="Message" id="message"></textarea><br>
+
+                <label>Giới tính:</label>
+                <input type="radio" id="male" name="Sex" value="Nam">
+                <label for="male">Nam</label>
+                <input type="radio" id="female" name="Sex" value="Nữ">
+                <label for="female">Nữ</label><br>
+
+                <label>Sở thích:</label><br>
+                <input type="checkbox" id="lq" name="Hoppies"
+                    value="Liên Quân Mobile">
+                <label for="lq">Liên Quân Mobile</label>
+                <input type="checkbox" id="tc" name="Hoppies" value="Tốc Chiến">
+                <label for="tc">Tốc Chiến</label>
+                <input type="checkbox" id="bl" name="Hoppies" value="Bơi lội">
+                <label for="bl">Bơi lội</label><br>
+
+                <label for="Nganh">Ngành:</label>
+                <select id="Nganh" name="Nganh">
+                    <option>Công nghệ Thông tin</option>
+                    <option>Hệ thống Thông tin</option>
+                    <option>Khoa học Máy tính</option>
+                    <option>Kỹ thuật Phần mềm</option>
+                    <option>Kỹ thuật Máy tính</option>
+                    <option>Trí tuệ Nhân tạo</option>
+                    <option>Mạng máy tính và An toàn thông tin</option>
+                    <option>Kỹ thuật Hệ thống Máy tính</option>
+                    <option>Thiết kế Vi mạch</option>
+                    <option>Truyền thông đa phương tiện</option>
+                    <option>Mạng máy tính và Truyền thông dữ liệu</option>
+                    <option>An toàn Thông tin</option>
+                    <option>Thương mại điện tử</option>
+                    <option>Khoa học Dữ liệu</option>
+                </select><br>
+
+                <input type="submit" value="Gửi">
+            </form>
+        </div>
+
+        <footer>
+            <p>@2025 23520753 Phạm Nhật Khoa</p>
+        </footer>
+    </body>
+</html>
